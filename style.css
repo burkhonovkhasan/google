@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/istockphoto-517188688-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 15px;
+}
+nav a{
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav i{
+    margin-left: 15px;
+}
