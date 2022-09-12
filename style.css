@@ -41,6 +41,7 @@ h1{
     font-size: 100px;
     letter-spacing: 2px;
     color: white;
+    margin-bottom: 20px;
 }
 .box{
     display: flex;
@@ -55,6 +56,7 @@ h1{
     padding: 0px 10px;
     background-color: wheat;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .box input{
     width: 90%;
@@ -67,4 +69,104 @@ h1{
 }
 .box i{
     color: rgb(56, 55, 55);
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    margin-top: 4%;
+
+}
+
+main a{
+
+    width: 25%;
+    height: 35%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+
+
+}
+main a:hover{
+
+    background-color: rgb(137, 134, 134);
+
+}
+.box1{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.you{
+    color: red;
+}
+.teg{
+    color: rgb(59, 119, 239);
+}
+.ins{
+    color: rgb(232, 98, 14);
+}
+.fac{
+    color: blue;
+}
+.box2 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.box2 p:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:1151px) {
+    main{
+        width: 50%;
+    }
+}
+@media screen and (max-width:690px) {
+    main{
+        width: 50%;
+    }
+    .box2 p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:625px) {
+    main{
+        width: 50%;
+    }
+    .box2 p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:582px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:550px) {
+    main{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:376px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
